@@ -101,7 +101,7 @@ for i, path in enumerate(image_paths):
 
 # Quiz Section
 st.subheader("💡 Quiz Time! How well do you know us?")
-question = st.radio("Where did we have our first date?", ["You", "Yuki", "key"])
+question = st.radio("Who is the best nurse in the world?", ["You", "Yuki", "key"])
 if question == "Yuki":
     st.success("Correct! 🥰")
 else:
